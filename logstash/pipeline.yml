@@ -1,0 +1,4 @@
+- pipeline.id: raw_files_1.conf
+  path.config: "/etc/logstash/conf.d/raw_files_1.conf"
+  pipeline.batch.size: 1000
+  pipeline.workers: 4

@@ -1,0 +1,106 @@
+{
+  "order": 0,
+  "index_patterns": [
+    "1c_*"
+  ],
+  "settings": {
+    "index": {
+      "number_of_shards": "2",
+      "number_of_replicas": "0",
+      "refresh_interval": "10s"
+    }
+  },
+  "mappings": {
+    "_default_": {
+      "properties": {
+        "@timestamp": {
+          "type": "date"
+        },
+        "path": {
+          "type": "text"
+        },
+        "User": {
+          "type": "keyword"
+        },
+        "UserId": {
+          "type": "text"
+        },
+        "Data1": {
+          "type": "text"
+        },
+        "Data2": {
+          "type": "text"
+        },
+        "SecondIpPort": {
+          "type": "text"
+        },
+        "Metadata": {
+          "type": "keyword"
+        },
+        "MetadataId": {
+          "type": "text"
+        },
+        "Importance": {
+          "type": "text"
+        },
+        "MoreMetadata": {
+          "type": "text"
+        },
+        "Computer": {
+          "type": "keyword"
+        },
+        "ComputerId": {
+          "type": "text"
+        },
+        "WorkServer": {
+          "type": "keyword"
+        },
+        "WorkserverId": {
+          "type": "text"
+        },
+        "Comment": {
+          "type": "text"
+        },
+        "NumberTransaction": {
+          "type": "text"
+        },
+        "Connection": {
+          "type": "text"
+        },
+        "StatusTransaction": {
+          "type": "text"
+        },
+        "MainIpPort": {
+          "type": "text"
+        },
+        "Transaction": {
+          "type": "text"
+        },
+        "NameApplication": {
+          "type": "keyword"
+        },
+        "NameApplicationId": {
+          "type": "text"
+        },
+        "RepresentationData": {
+          "type": "text"
+        },
+        "Event": {
+          "type": "keyword"
+        },
+        "EventId": {
+          "type": "text"
+        },
+        "ArrayDataType": {
+          "type": "text"
+        },
+        "Session": {
+          "type": "text"
+        }
+      }
+    }
+  },
+  "aliases": {}
+}
+
+
