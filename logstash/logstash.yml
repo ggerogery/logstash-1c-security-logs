@@ -1,0 +1,17 @@
+path.data: /var/lib/logstash
+path.settings: /etc/logstash/pipelines.yml
+
+http.host: "127.0.0.1"
+http.port: 9600
+
+# Options for log.level:
+#   * fatal
+#   * error
+#   * warn
+#   * info (default)
+#   * debug
+#   * trace
+#
+log.level: warn
+path.logs: /var/log/logstash
+config.support_escapes: true
